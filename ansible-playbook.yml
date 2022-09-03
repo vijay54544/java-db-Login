@@ -79,7 +79,7 @@
 
     - name: copy the war file
       aws_s3:
-        bucket: lwplabs
+        bucket: s3-store9
         object: login##1.0.war
         dest: /etc/tomcat/webapps/login##1.0.war
         mode: get
